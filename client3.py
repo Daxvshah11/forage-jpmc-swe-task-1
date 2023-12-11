@@ -67,7 +67,7 @@ if __name__ == "__main__":
             stock, bid_price, ask_price, price = getDataPoint(quote)
 
             # storing fetched data
-            allPrices[stock]=price
+            allPrices[stock] = price
 
             print(
                 "Quoted %s at (bid:%s, ask:%s, price:%s)"
